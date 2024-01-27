@@ -12,7 +12,7 @@ let app = express();
 
 //BODYPARSER JSON
 
-app.use("/",express.static("public"));
+app.use("/",express.static("build"));
 app.use(express.json());
 
 
